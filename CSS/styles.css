@@ -1,0 +1,176 @@
+/********************TAG SELECTORS********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #E7F1F1;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  font-family: 'League Script', cursive;
+  color: #006666;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Stint Ultra Expanded', cursive;
+  color: #006666;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Stint Ultra Expanded', cursive;
+  color: #408C8C;
+  margin: 0;
+}
+
+a {
+  color: #006666;
+  font-family: 'Stint Ultra Expanded', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #507676;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/********************CLASS SELECTORS********************/
+.top-container {
+  background-color: #9FC6C6;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+  background-color: #9FC6C6;
+  position: relative;
+  padding: 100px 0 50px
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #408C8C;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.p-1 {
+  font-size: 2.5rem;
+}
+
+.pro {
+  text-decoration: underline;
+  color: #845460;
+}
+
+.m2 {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 250px;
+  height: 107px;
+  right: 300px;
+  top: 45px;
+}
+
+.middle-cloud {
+  position: absolute;
+  width: 250px;
+  height: 107px;
+  left: 350px;
+  bottom: 300px;
+}
+
+.HTML5-gif {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Photography-gif {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+}
+
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  margin: 50px auto 10px auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
